@@ -1,1 +1,102 @@
 
+body{
+  background-color: rgb(6, 6, 6);
+}
+.container{
+  display: flex;
+  justify-content: center;
+  
+}
+.reset-btn{
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  margin: 20px auto;
+  font-size: 25px;
+  display: flex;
+  text-align: center;
+}
+.reset-btn:hover{
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  margin: 20px auto;
+  font-size: 25px;
+  display: flex;
+  text-align: center;
+  box-shadow: 0px 1px 2px 2px white;
+}
+
+.color{
+  color: goldenrod;
+}
+.player-contaier{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.player1{
+  font-size: 35px;
+  position: relative;
+  left: 200px;
+ 
+}
+.player2{
+  font-size: 35px;
+  position: relative;
+  right: 200px;
+}
+.white{
+  color: white;
+}
+
+
+.box{ 
+   border: 1px solid white;
+  width: 120px;
+  height: 120px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 70px;
+ cursor: pointer;
+  
+}
+
+.box:hover{ 
+ box-shadow: 1px 2px 2px 3px pink;
+ width: 120px;
+ height: 120px;
+}
+
+.text-center{
+  text-align: center;
+  font-size: 50px;
+}
+.text-center-player{
+  text-align: center;
+ color: white;
+  font-size: 40px;
+
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .player1{
+    font-size: 25px;
+    position: relative;
+    left: 100px;  
+  }
+
+  .player2 {
+    font-size: 24px;
+    position: relative;
+    right: 82px;
+  }
+
+  .text-center-player {
+    text-align: center;
+    color: white;
+    font-size: 31px;
+  }
+
+}
