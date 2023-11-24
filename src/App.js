@@ -107,7 +107,7 @@ function App() {
       {
         winner ?
           (
-            <h1 className='white'>Winner is {winner === 1 ? "❌" : "🛟"}</h1>
+            <h1 className='white'>Winner is :  {winner === 1 ? "❌" : "🛟"}</h1>
           ) : null
       }
 
